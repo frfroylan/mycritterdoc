@@ -1,0 +1,135 @@
+<html>
+<head>
+	<title>My Critter Doc</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+<div class="jumbotron">
+
+	<img src="http://96.30.15.4/~bellyru1/wp-content/uploads/2011/10/iStock_000020001946Large.jpg" alt="Dogs and Cats" id="header-image">
+	<div class="container">
+		<h1>Country Animal Clinic</h1>
+		<p class="sub">Good Medicine For Your Pet</p>
+		<p class="tel">Phone: 909-222-4444</p>
+		<p class="tel">Fax: 909-111-9999</p>
+	</div>
+</div>
+
+<nav class="navbar" id="top">
+	<ul class="nav navbar-nav">
+		<li><a href="#top">Home</a></li>
+		<li><a href="#serv">Service Details</a></li>
+		<li><a href="#faq">FAQ</a></li>
+		<li><a href="#loc">Location</a></li>
+	</ul>
+</nav>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 home">
+			<img src="http://www.mycritterdoc.com/index_files/image4321.jpg" id="sign" alt="Country Animal Clinic">
+			
+			<p class="tag">
+				Country Animal Clinic has been owned and operated by Dr. Gene Metzger since 1997.
+			</p>
+
+			<hr>
+
+			<p>Dr. Gene is available for office calls  Mondays, Tuesdays, Fridays and Saturdays.</p>
+
+			<p>Dr. Marcie Locke is available on Wednesdays, Thursdays,  Fridays, and Saturdays.</p>
+
+			<p>Office Calls are by appointment, please contact our office to set up a time to have your pet evaluated.</p>
+
+			<p>We ask that you arrive 10 minutes early for your appointment.  Please be sure to bring proof of your animals vaccinations.  All pets seen in our clinic are required to have the proper vaccinations for your pets health, and the safety of our staff.</p>
+	
+			<p>If you are unable to make your appointment on time, please contact our office.</p>
+
+		</div>
+	</div>
+	<!-- End of Row-->
+
+	<div class="row">
+		<div class="col-lg-6 service" id="serv">
+			<h3>Service Detail:</h3>
+			<h4>Contact Our office for an appointment</h4>
+
+			<p>We have a Low Cost Vaccination Clinic every Wednesday and Saturday from 1pm-3pm.  No Appointment necessary for the Vaccine Clinic.  We do require you pay with CASH to speed service and allow us to provide these vaccines at the best price.</p>
+			<p>Specializing in small Animal Medicine and Surgery.</p>
+
+			<ul>
+				<li>Spaying and Neutering</li>
+				<li>Cruciate repairs</li>
+				<li>Boarding</li>
+				<li>Grooming</li>
+			</ul>
+		</div>
+
+		<div class="col-lg-6">
+			
+
+		</div>
+	</div>
+	<!-- End of Row-->
+
+	<div class="row">
+		<div class="col-lg-12 fact" id="faq">
+			<h3>FAQ:</h3>
+
+		</div>
+	</div>
+	<!-- End of Row-->
+
+	<div class="row">
+		<div class="col-lg-6 location" id="loc">
+			<h3>Location:</h3>
+			<address>
+				Country Animal Clinic <br>
+				6691 Riverside Drive <br>
+				Chino, California 91710
+
+			</address>
+
+		</div>
+
+		<div class="col-lg-6">
+			
+
+		</div>
+	</div>
+
+</div>
+<!-- End of Container-->
+
+<footer>
+	<ul class="footer">
+		<li><a href="#top">Back to the top</a></li>
+	</ul>
+	<p>Country Animal Clinic 2015</p>
+</footer>
+<!-- End of Footer-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Script from https://css-tricks.com/snippets/jquery/smooth-scrolling/-->
+<script type="text/javascript">
+	$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+</body>
+</html>
