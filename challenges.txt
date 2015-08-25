@@ -1,3 +1,4 @@
 - Could not get navbar to center. I am trying to do it by targeting 
 .nav{margin: 0 auto} but it does not work. Instead I am using .nav{margin-left: 40%;}. 
 
+- Make sure to add col-xs-12 / col-xs-6

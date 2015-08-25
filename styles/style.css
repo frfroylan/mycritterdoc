@@ -53,28 +53,30 @@ nav.navbar{
 /** End Navbar Setup **/
 
 /** Col Setup **/
-.col-lg-12 {
+.col-xs-12 {
 
 	height: 350px;
 	border:1px solid #AD9874;
 	padding: 20px;
-	font-size: 16px;
+	font-size: 18px;
+	overflow: scroll;
 }
 
-.col-lg-12:first-child {
+.col-xs-12:first-child {
 	border-top: none;
 }
 
-.col-lg-6{
+.col-xs-6{
 	height: 350px;
 	border-left:1px solid #AD9874;
 	border-right:1px solid #AD9874;
 	border-bottom: 1px solid #AD9874;
 	padding: 20px;
-	font-size: 16px;
+	font-size: 18px;
+	overflow: scroll;
 }
 
-.col-lg-6:first-child {
+.col-xs-6:first-child {
 	border-right: none;
 }
 /** Col set up end **/
@@ -108,16 +110,35 @@ hr {
 	list-style-type: square;
 }
 
+#vet-pic img {
+
+	display: block;
+	height: 100%;
+	width: auto;
+	margin-left: auto; /** Hid this picture when mobile site is viewed**/
+	margin-right: auto;
+}
 /** End of Service detail setup **/
 
 /** FAQ Setup **/
+#faq {
+	height: 375px;
+}
+.question {
+	font-weight: bold;
+	font-style: italic;
+	padding: 0;
+	margin: 0;
+}
 
 /** End of FAQ setup **/
 
 /** Location setup **/
+iframe {
+	display: block;
+	margin: 0 auto;
+}
 
-
-/** end of location setup **/
 address {
 
 	font-size: 18px;
@@ -125,6 +146,9 @@ address {
 	padding-top: 30px;
 	
 }
+
+/** end of location setup **/
+
 
 /** Footer **/
 footer{
