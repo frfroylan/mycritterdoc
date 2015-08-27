@@ -130,7 +130,6 @@ hr {
 	padding: 0;
 	margin: 0;
 }
-
 /** End of FAQ setup **/
 
 /** Location setup **/
@@ -146,7 +145,6 @@ address {
 	padding-top: 30px;
 	
 }
-
 /** end of location setup **/
 
 
@@ -164,5 +162,65 @@ footer p {
 	text-align: center;
 
 }
-
 /** End of Footer setup **/
+
+
+@media (max-width: 767px){
+
+	/** Nav Query info **/
+	.nav {
+		margin:0;
+	}
+
+	nav ul li a {
+		display: block;
+		width: 90px;
+		float: left;
+		text-align: center;
+		height: 50px;
+	}
+	
+	/** First Section **/
+	.home {
+		height: 800px;
+	}
+	
+	#serv {
+		width: 100%;
+		height: 450px;
+	}
+
+	#vet-pic {
+		visibility: hidden;
+		display:none;
+	}
+
+	#faq {
+		height: 620px;
+	}
+	
+	#loc {
+		height: 250px;
+	}
+
+	iframe {
+		margin-left: -20px;
+	}
+}
+
+
+@media (min-width: 768px){
+	.nav {
+			margin-left: 30%;
+		}
+
+
+}
+
+@media(min-width: 992px){
+	.nav {
+			margin-left: 30%;
+		}
+
+
+}
